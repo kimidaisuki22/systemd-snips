@@ -1,0 +1,9 @@
+[Unit]
+Description=Somemtext
+
+[Service]
+Type=simple
+ExecStart=/bin/xxx --args yyy
+# StandardOutput=file:/tmp/date.txt
+RestartSec=10
+Restart=always
